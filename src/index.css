@@ -1,0 +1,15 @@
+:root {
+  --sans: 'Trebuchet MS', sans-serif;
+  --display: Georgia, serif;
+  --mono: 'Courier New', monospace;
+  font: 16px/145% var(--sans);
+  color: #e9e3d8;
+  background: #171817;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+#root { min-height: 100vh; }
